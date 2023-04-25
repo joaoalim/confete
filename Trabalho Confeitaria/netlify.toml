@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/old-path"
+  to = "/new-path"
+  status = 301
+  force = false
+  query = {path = ":path"}
+
+
+
+[[redirects]]
+  from = "/produtos"
+  to = "opções.html"
+  status = 200
+  force = true 
